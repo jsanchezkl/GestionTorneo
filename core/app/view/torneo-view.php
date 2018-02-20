@@ -2,13 +2,16 @@
     <div class="col-md-12">
         <div class="card">
             <div class="card-header" data-background-color="blue">
-                <h4 class="title">Categorias</h4>
+                <h4 class="title">Torneos</h4>
             </div>
             <div class="card-content table-responsive">
-                <a href="index.php?view=newcategory" class="btn btn-default"><i class='fa fa-th-list'></i> Nueva Categoria</a>
+                <a href="index.php?view=newcategory" class="btn btn-default">
+                    <i class='fa fa-th-list'></i> 
+                    Nuevo Torneo
+                </a>
 
                 <?php
-                $users = CategoryData::getAll();
+                $users = TorneoData::getAll();
                 if (count($users) > 0) {
                     // si hay usuarios
                     ?>
@@ -22,7 +25,7 @@
                         foreach ($users as $user) {
                             ?>
                             <tr>
-                                <td><?php echo $user->name . " " . $user->lastname; ?></td>
+                                <td><?php echo $user->NombreTorneo ; ?></td>
                                 <td style="width:80px;" class="td-actions"><a href="index.php?view=editcategory&id=<?php echo $user->id; ?>" rel="tooltip" title="Editar" class="btn btn-simple btn-warning btn-xs"><i class='fa fa-pencil'></i></a> <a href="index.php?view=delcategory&id=<?php echo $user->id; ?>" rel="tooltip" title="Eliminar" class=" btn-simple btn btn-danger btn-xs"><i class='fa fa-remove'></i></a></td>
                             </tr>
                             <?php

@@ -83,6 +83,14 @@
                           <p>Participantes</p>
                       </a>
                   </li>
+                  
+                  <li>
+                      <a href="./?view=torneo">
+                          <i class="fa fa-user-times"></i>
+                          <p>Torneos</p>
+                      </a>
+                  </li>
+                  
               </ul>
         </div>
       </div>

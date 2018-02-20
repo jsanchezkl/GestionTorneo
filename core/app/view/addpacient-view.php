@@ -1,9 +1,4 @@
 <?php
-/**
-* BookMedik
-* @author evilnapsis
-* @url http://evilnapsis.com/about/
-**/
 
 if(count($_POST)>0){
 	$user = new PacientData();
