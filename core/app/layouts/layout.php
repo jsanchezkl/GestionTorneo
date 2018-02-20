@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <title>BookMedik - Dashboard</title>
+  <title>SIGTOR - Dashboard</title>
 
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -29,7 +29,7 @@
       <div class="sidebar" data-color="blue">
       <div class="logo">
         <a href="./" class="simple-text">
-          BookMedik
+          SIGTOR
         </a>
       </div>
 
@@ -77,6 +77,12 @@
                           <p>Usuarios</p>
                       </a>
                   </li>
+                  <li>
+                      <a href="./?view=participante">
+                          <i class="fa fa-user-plus"></i>
+                          <p>Participantes</p>
+                      </a>
+                  </li>
               </ul>
         </div>
       </div>
@@ -91,7 +97,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./"><b>Sistema de Citas Medicas</b></a>
+            <a class="navbar-brand" href="./"><b>Sistema de Gestión de Torneos SIGTOR</b></a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
